@@ -1,0 +1,7 @@
+services:
+  uboot-kernel-builder:
+        container_name: uboot-kernel-builder   
+        build:
+            context: ./
+            dockerfile: Dockerfile
+    
